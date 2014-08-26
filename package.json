@@ -1,0 +1,25 @@
+{
+  "author": "Roger Zurawicki <rzurawicki@gmail.com>",
+  "name": "propr",
+  "description": "Version control tool for removing code style outside from repos",
+  "version": "0.0.1",
+
+  "preferGlobal": "true",
+  "main": "./bin/propr.js",
+  "bin": {
+    "propr": "./bin/propr.js"
+  },
+  "keywords": ["vcs", "git", "formatting"],
+  "repository": {
+    "url": "https://github.com/rzurawicki/propr"
+  },
+  "dependencies": {
+    "colors": "^0.6.2",
+    "js-beautify": "^1.5.1",
+    "shelljs": "^0.3.0"
+
+  },
+  "engines": {
+    "node": "*"
+  }
+}

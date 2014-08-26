@@ -1,0 +1,19 @@
+{
+  "version": 0.1,
+  "formatters": [
+    {
+      "name": "js-beautify",
+      "ext": "js",
+      "config": ".jsbeautifyrc"
+    },
+    {
+      "name": "css-beautify",
+      "ext": "css"
+    },
+    {
+      "name": "html-beautify",
+      "ext": "html",
+      "args": "-s 2"
+    }
+  ]
+}
